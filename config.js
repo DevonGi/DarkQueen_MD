@@ -6,26 +6,26 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'sam@secktor.live'
-global.github = 'https://github.com/SamPandey001/Secktor-Md'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94715491788'
-global.devs = '94715491788';
+global.email = 'projectanims@gmail.com'
+global.github = 'https://github.com/Devongi/DarkQueen_MD'
+global.location = 'Makassar Indonesia'
+global.gurl = 'https://instagram.com/DevCouldntBeBack' // add your username
+global.sudo = process.env.SUDO || '6289603924264'
+global.devs = '6289603924264';
 global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/09297d311573675a19c0a.png'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? '𝐃𝐚𝐫𝐤 𝐐𝐮𝐞𝐞𝐧 𝐌𝐃' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'X-Notiya' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '𝓐𝓴𝓫𝓸𝓽' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'Akmal Rabbani' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'X-Notiya' : process.env.PACK_INFO.split(";")[0],
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'DarkQueen-Md' : process.env.PACK_INFO.split(";")[1],
-  autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
-  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
-  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
+  author:  process.env.PACK_INFO.split(";")[0] === undefined ? '𝕬𝖐𝖒𝖆𝖑 𝕽𝖆𝖇𝖇𝖆𝖓𝖎' : process.env.PACK_INFO.split(";")[0],
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
+  packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝓐𝓴𝓫𝓸𝓽' : process.env.PACK_INFO.split(";")[1],
+  autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
+  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed', 'asu', 'kontol' : process.env.ANTI_BAD_WORD,
+  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '91' : process.env.FAKE_COUNTRY_CODE,
-  readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
+  readmessage:  process.env.READ_MESSAGE === undefined ? true : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? [''] : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
@@ -34,7 +34,7 @@ module.exports = {
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
   BRANCH: 'main', 
-  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
+  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? 'GW Telah Bangun' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
